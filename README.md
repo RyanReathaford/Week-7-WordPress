@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <img src="https://imgur.com/a/XcQWU" width="800">
+  - [ ] GIF Walkthrough: https://imgur.com/a/XcQWU
   - [ ] Steps to recreate: 
 	- A user must have contribute permissions to begin the exploit
 	- The attacker must then try to create a comment or post
