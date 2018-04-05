@@ -20,7 +20,7 @@ Time spent: **X** hours spent in total
 	-While this just popped up a simple alert, an attacker could hide far more malicoius code.
   - [ ] Affected source code: 
     - [Link 1](https://core.trac.wordpress.org/changeset/33359)
-1. Username scrape and Brute force attack
+2. Username scrape and Brute force attack
   - [ ] Summary: 
     - Vulnerability types: Scrape Usernames and Brute Force password
     - Tested in version: 4.2
