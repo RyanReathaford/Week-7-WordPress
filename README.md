@@ -27,7 +27,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: None
   - [ ] GIF Walkthrough: https://imgur.com/a/iNAQB 
   - [ ] Steps to recreate: 
-	- The attacker can use the wpscan tool in Kali Linux to pull a list of username with the command:
+	- The attacker can use the wpscan tool in Kali Linux to scrape a list of usernames with the command:
 	- wpscan -u url of wordpress site --enumerate u Example: wpscan -u wpdistillery.vm -- enumerate u
 	- This returns a list of user accounts for this specific site
 	- Next the attacker can use a wordlist along with a username to brute force the password with command:
