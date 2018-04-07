@@ -49,3 +49,25 @@ Time spent: **X** hours spent in total
 	- I went with
 		- [caption width="1" caption='\<a href="' ">]\</a>\<a href=" onmouseover='alert("Congratulations, you played yourself!")' ">Dont Touch!\</a>
 - [Link 1](https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/)
+## Resources
+https://www.cvedetails.com/vulnerability-list/vendor_id-2337/product_id-4096/
+https://www.youtube.com/watch?v=9tLUbsdNX88
+##Assets
+I used Kali linux and WPScan
+## Notes
+Some challenges that I ran into involved the JS code as I am not a strong coder.  I also had a lot of problems getting everything to run correctly in the lab challenges.  I had to delete everything and start over several times.  
+## License
+
+    Copyright [2018] [Gary Reathaford]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
