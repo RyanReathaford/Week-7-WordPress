@@ -35,3 +35,17 @@ Time spent: **X** hours spent in total
 		- example: wpscan -u wpdistillery.vm --username admin --wordlist /root/Desktop/Passwords
   - [ ] Affected source code:
 	- This is not due to source code, but is a combination of weak passwords and no maximum attempts restriction on logins
+3. (Required) Authenticated Shortcode Tags Cross-Site Scripting
+  - [ ] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.3.1
+  - [ ] GIF Walkthrough: https://imgur.com/a/chQwP
+  - [ ] Steps to recreate: 
+	- The attacker must have posting access to the WP page.
+	- Create or modify a post or page
+	- Using the text editer to insert code similar to 
+		- [caption width="1" caption='/\<a href="' ">]/\</a>/\<a href=" \<event attribute with JS code> ">Dont Click!\</a>
+	- I went with
+		- [caption width="1" caption='\<a href="' ">]\</a>\<a href=" onmouseover='alert("Congratulations, you played yourself!")' ">Dont Touch!\</a>
+- [Link 1](https://blog.checkpoint.com/2015/09/15/finding-vulnerabilities-in-core-wordpress-a-bug-hunters-trilogy-part-iii-ultimatum/)
